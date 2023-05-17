@@ -1,0 +1,93 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color:lightblue;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+a {
+  text-decoration: none;
+  font-size: 17px;
+  background-color: cornflowerblue;
+  color: white;
+  padding: 10px 18px 13px;
+  border-radius: 14px;
+  box-shadow: 0 4px 8px 0 rgba(27, 26, 26, 0.349);
+}
+a:hover, .moreInfoButton:hover, #klick:hover {
+  background-color: dodgerblue;
+}
+p {
+  margin: 10px 10px 14px;
+  text-align: center;
+  font-size: 24px;
+}
+.moreInfoButton{
+  font-size: 17px;
+  background-color: cornflowerblue;
+  color: white;
+  padding: 10px 18px 13px;
+  border-radius: 14px;
+  box-shadow: 0 4px 8px 0 rgba(27, 26, 26, 0.349);
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  background-color: azure;
+  margin: 20px;
+  max-width: 30%;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(27, 26, 26, 0.349);
+  border-radius: 10px;
+}
+img {
+  max-width: 100%;
+}
+.image {
+  margin: 6px;
+}
+#over {
+  position: fixed;
+  top: 50px;
+  opacity: 0.8;
+  background-color:cornflowerblue;
+  display: none;
+  padding: 10px;
+  }
+  /* #klick {
+    font-size: 17px;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px 18px 11px;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px 0 rgba(27, 26, 26, 0.349);
+    /* margin: 6px; */
+  /* }  */
+  #overUl {
+    background-color: midnightblue;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 30px;
+  }
+  li {
+    list-style-type: none;
+    font-size: 20px;
+    margin: 5px;
+    color: white;
+  }
